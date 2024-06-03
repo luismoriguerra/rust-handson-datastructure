@@ -1,0 +1,230 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust-handson-datastructure'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust-handson-datastructure",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "rust-handson-datastructure",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rust-handson-datastructure'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rust-handson-datastructure",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "rust-handson-datastructure",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ch01-02'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ch01-02",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-02",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ch01-02'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ch01-02",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-02",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ch01-03-mut'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ch01-03-mut",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-03-mut",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ch01-03-mut'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ch01-03-mut",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-03-mut",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ch01-04-str'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ch01-04-str",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-04-str",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ch01-04-str'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ch01-04-str",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-04-str",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ch01-03-factorial-perf'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ch01-03-factorial-perf",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-03-factorial-perf",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ch01-03-factorial-perf'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ch01-03-factorial-perf",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-03-factorial-perf",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ch01-01'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ch01-01",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-01",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ch01-01'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ch01-01",
+                    "--package=rust-handson-datastructure"
+                ],
+                "filter": {
+                    "name": "ch01-01",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

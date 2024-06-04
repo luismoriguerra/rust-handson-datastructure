@@ -24,3 +24,5 @@ mod tests {
         assert_eq!(v, vec![1, 2, 3, 4]);
     }
 }
+
+fn main() {}
